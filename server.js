@@ -12,6 +12,8 @@ app.use(cors({
   origin: [
     "http://localhost:5173",
     "http://localhost:3000",
+    "https://bulkmail-frontend-fkqut7jpj-bavadharanibalajis-projects.vercel.app",
+    /\.vercel\.app$/,
   ],
   credentials: true,
 }));
